@@ -1,0 +1,10 @@
+
+select count(*) from brands group by Brand_name having count(*) > 1
+
+ DELETE FROM brands
+    WHERE id NOT IN
+    (
+        SELECT MAX(id) AS MaxRecordID
+        FROM brands
+        GROUP BY brand_name
+    );
