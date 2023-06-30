@@ -1,0 +1,3 @@
+Joins
+select * from trial_products as p
+join brands as b on b.Brand_id = p.Brand_id
