@@ -1,0 +1,9 @@
+got to sql congigeration manager > sql server network configuration > Protocols > TCP/IP Enable
+after got property of TCP/IP > Click IPAddresses Tab > IPAll > ipaddress set to blank and port must be 1433
+After that 
+Open Sql Server
+Right Click on Server instance and go to properties>Security>Sql server window Authontication mode enable
+Got to Connect in property Enable Allow Remote Connection to server
+After That Click on Instance
+and click on security > Login> Right Click New Login > Login Name Xyz > Enable Sql server Authentication > Set password > Enforce password Policy enable
+add port in allow incoming connection 
