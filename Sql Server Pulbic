@@ -7,3 +7,6 @@ Got to Connect in property Enable Allow Remote Connection to server
 After That Click on Instance
 and click on security > Login> Right Click New Login > Login Name Xyz > Enable Sql server Authentication > Set password > Enforce password Policy enable
 add port in allow incoming connection 
+
+after that connect with local host 
+localhost
